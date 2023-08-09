@@ -67,14 +67,14 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "VsCode",
-      icon: vscode,
-    },
-    {
-      name: "C#",
-      icon: csharp,
-    },
+    // {
+    //   name: "VsCode",
+    //   icon: vscode,
+    // },
+    // {
+    //   name: "C#",
+    //   icon: csharp,
+    // },
     {
       name: "Unity",
       icon: unity,
@@ -91,22 +91,22 @@ import {
       name: "C++",
       icon: cpp,
     },
-    {
-      name: "Visual Studio",
-      icon: visualStudio,
-    },
-    {
-      name: "Krita",
-      icon: krita,
-    },
+    // {
+    //   name: "Visual Studio",
+    //   icon: visualStudio,
+    // },
+    // {
+    //   name: "Krita",
+    //   icon: krita,
+    // },
     {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "Photoshop",
-      icon: photoshop,
-    },
+    // {
+    //   name: "Photoshop",
+    //   icon: photoshop,
+    // },
     // {
     //   name: "HTML",
     //   icon: html,

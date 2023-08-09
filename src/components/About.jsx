@@ -2,14 +2,15 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from "../hoc";
+import { styles } from '../styles'
+import { services } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
+import { SectionWrapper } from "../hoc"
 
 const ServiceCard = ({index, title, icon}) => {
   return(
-    <Tilt className="xs:w-[250px] w-full">
+    // <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full transition-all">
       <motion.div variants={fadeIn("right", "spring", 0.5*index, 0.75)}
           className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
@@ -45,7 +46,7 @@ const About = () => {
       I am a passionate game programmer with a diverse range of project experiences. My core skill set encompasses gameplay programming, game design, Figma, Blender, Krita, and UI/UX design. I am proficient in working with game engines such as Unity and Unreal, which allows me to create immersive and enjoyable gaming experiences. My drive to continuously strive for excellence and push the boundaries of what's possible in gaming fuels my passion and excitement, ultimately leading to my dedication to creating exceptional games. 🚀
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 place-content-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
