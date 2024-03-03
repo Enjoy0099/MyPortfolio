@@ -22,9 +22,9 @@ const Navbar = () => {
             window.scrollTo(0,0);
             }}
         >
-          <img src={tklogo2} alt="logo" className="w-9 h-9 object-contain"/>
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            <span className="sm:block hidden">Trada Kevin</span>
+          {/* <img src={tklogo2} alt="logo" className="w-9 h-9 object-contain"/> */}
+          <p className="text-white text-[28px] font-bold cursor-pointer flex">
+            <span className="sm:block hidden"><span className=" text-green-400">T</span>rada.</span>
           </p>
         </Link>
         <ul className=" list-none hidden sm:flex flex-row gap-10">
