@@ -23,7 +23,7 @@ const Navbar = () => {
             }}
         >
           <p className="text-white text-[21px] font-bold cursor-pointer flex">
-            <span className="sm:block hidden"><span className="text-green-500 text-[24px]">T</span>rada</span>
+            <span className="sm:block hidden"><span className="text-green-500 text-[29px]">T</span>rada</span>
           </p>
         </Link>
         <ul className=" list-none hidden sm:flex flex-row gap-10">
