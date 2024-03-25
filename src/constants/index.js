@@ -30,6 +30,11 @@ import {
     unreal,
     visualStudio,
     vscode,
+    Mobile_AR_Development,
+    Junior_Programmer,
+    Unity_Essentials,
+    Creative_Core,
+    IDZ,
   } from "../assets";
   
   export const navLinks = [
@@ -53,20 +58,20 @@ import {
   
   const services = [
     {
-      title: "Gameplay Programmer",
-      icon: web,
+      title: "Junior Programmer",
+      icon: Junior_Programmer,
     },
     {
       title: "Unity Developer",
-      icon: mobile,
+      icon: Creative_Core,
     },
     {
       title: "Game Designer",
-      icon: backend,
+      icon: Unity_Essentials,
     },
     {
-      title: "3D Modeller",
-      icon: creator,
+      title: "Mobile AR Developer",
+      icon: Mobile_AR_Development,
     },
   ];
   
@@ -141,6 +146,21 @@ import {
       icon: galanto,
       iconBg: "#ffffff",
       date: "February 2023 - May 2023",
+      points: [
+
+        "Develop and maintain virtual exercise games using Unity, C#, Blender, and other relevant technologies for healthcare.",
+        "Collaborate with cross-functional teams, including Android developers, to create high-quality games.",
+        "Address Engagement and Motivation pain points to design a more effective and sustainable exercise program.",
+        "Ensure cross-tablet compatibility with responsive design for the developed games.",
+        "Provide constructive documentation for future developers to facilitate understanding and development.",
+      ],
+    },
+    {
+      title: "Game Developer",
+      company_name: "IDZ Digital Private Limited",
+      icon: IDZ,
+      iconBg: "#ffffff",
+      date: "September 2023 - Present",
       points: [
 
         "Develop and maintain virtual exercise games using Unity, C#, Blender, and other relevant technologies for healthcare.",

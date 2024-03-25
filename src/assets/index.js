@@ -2,6 +2,10 @@ import logo from "./logo.svg";
 import tklogo2 from "./tklogo2.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
+import Mobile_AR_Development from "./Mobile_AR_Development.png";
+import Junior_Programmer from "./Junior_Programmer.png";
+import Unity_Essentials from "./Unity_Essentials.png";
+import Creative_Core from "./Creative_Core.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -38,7 +42,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import galanto from "./company/Galanto.png"
+import galanto from "./company/Galanto.png";
+import IDZ from "./company/IDZ_Logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +57,10 @@ export {
   tklogo2,
   backend,
   creator,
+  Mobile_AR_Development,
+  Junior_Programmer,
+  Unity_Essentials,
+  Creative_Core,
   mobile,
   web,
   github,
@@ -87,6 +96,7 @@ export {
   starbucks,
   tesla,
   galanto,
+  IDZ,
   carrent,
   jobit,
   tripguide,

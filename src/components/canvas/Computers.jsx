@@ -7,19 +7,19 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF('./mario_minigame/scene.gltf')
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
-      <pointLight intensity={0.7} />
-      <spotLight position={[-20, 50, 10]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024}/>
+      <hemisphereLight intensity={0.75} groundColor="black" />
+      <pointLight intensity={5.7} />
+      <spotLight position={[0, 50, 10]} angle={0.2} penumbra={1} intensity={2} castShadow shadow-mapSize={512}/>
 
       <primitive
         object={computer.scene}
-        scale={ isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01,-0.2,-0.1]}
+        scale={ isMobile ? 0.55 : 0.65}
+        position={isMobile ? [0, -1.2, 0] : [0, -1.45, 0]}
+        rotation={[0,0,0]}
       />
     </mesh>
   )
