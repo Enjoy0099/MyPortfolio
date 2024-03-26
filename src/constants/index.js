@@ -58,7 +58,7 @@ import {
   
   const services = [
     {
-      title: "Junior Programmer",
+      title: "Gameplay Programmer",
       icon: Junior_Programmer,
     },
     {
@@ -74,16 +74,16 @@ import {
       icon: Mobile_AR_Development,
     },
   ];
-  
+
   const technologies = [
     // {
     //   name: "VsCode",
     //   icon: vscode,
     // },
-    // {
-    //   name: "C#",
-    //   icon: csharp,
-    // },
+    {
+      name: "C#",
+      icon: csharp,
+    },
     {
       name: "Unity",
       icon: unity,
@@ -92,10 +92,10 @@ import {
       name: "Blender",
       icon: blender,
     },
-    {
-      name: "Unreal",
-      icon: unreal,
-    },
+    // {
+    //   name: "Unreal",
+    //   icon: unreal,
+    // },
     {
       name: "C++",
       icon: cpp,
@@ -104,14 +104,14 @@ import {
     //   name: "Visual Studio",
     //   icon: visualStudio,
     // },
-    // {
-    //   name: "Krita",
-    //   icon: krita,
-    // },
     {
-      name: "figma",
-      icon: figma,
+      name: "Krita",
+      icon: krita,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     // {
     //   name: "Photoshop",
     //   icon: photoshop,
@@ -148,11 +148,9 @@ import {
       date: "February 2023 - May 2023",
       points: [
 
-        "Develop and maintain virtual exercise games using Unity, C#, Blender, and other relevant technologies for healthcare.",
-        "Collaborate with cross-functional teams, including Android developers, to create high-quality games.",
-        "Address Engagement and Motivation pain points to design a more effective and sustainable exercise program.",
-        "Ensure cross-tablet compatibility with responsive design for the developed games.",
-        "Provide constructive documentation for future developers to facilitate understanding and development.",
+        "Develop and maintain virtual exercise games using Unity, C#, Blender, etc. for healthcare.",
+        "Collaborate with Android developers to ensure high-quality game creation.",
+        "Address engagement and motivation pain points to enhance exercise program effectiveness.",
       ],
     },
     {
@@ -163,11 +161,9 @@ import {
       date: "September 2023 - Present",
       points: [
 
-        "Develop and maintain virtual exercise games using Unity, C#, Blender, and other relevant technologies for healthcare.",
-        "Collaborate with cross-functional teams, including Android developers, to create high-quality games.",
-        "Address Engagement and Motivation pain points to design a more effective and sustainable exercise program.",
-        "Ensure cross-tablet compatibility with responsive design for the developed games.",
-        "Provide constructive documentation for future developers to facilitate understanding and development.",
+        "Develop engaging 2D Unity games for kids, mixing learning with play.",
+        "Work with artists, content creators, and fellow developers to find innovate creative solutions for kids' games.",
+        "Ensure seamless cross-tablet compatibility for Android and iOS devices through responsive design implementation.",
       ],
     },
     // {

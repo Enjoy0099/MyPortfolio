@@ -31,9 +31,9 @@ const EarthCanvas = () => {
       }}
     >
       <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={0.5} groundColor="black" />
       <pointLight intensity={0.7} />
-      <spotLight position={[0, 50, 10]} angle={0.2} penumbra={1} intensity={2} castShadow shadow-mapSize={512}/>
+      <spotLight position={[0, 50, 10]} angle={0.2} penumbra={1} intensity={1} castShadow shadow-mapSize={512}/>
       </mesh>
       
     <Suspense fallback={<CanvasLoader />}>

@@ -43,7 +43,7 @@ const About = () => {
       <motion.p variants={fadeIn("","", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I am a passionate game programmer with a diverse range of project experiences. My core skill set encompasses gameplay programming, game design, Figma, Blender, Krita, and UI/UX design. I am proficient in working with game engines such as Unity and Unreal, which allows me to create immersive and enjoyable gaming experiences. My drive to continuously strive for excellence and push the boundaries of what's possible in gaming fuels my passion and excitement, ultimately leading to my dedication to creating exceptional games. 🚀
+      I'm a dynamic gameplay programmer with a wide array of project expertise. Proficient in gameplay programming, game design, Blender, Krita, and AR development. Experienced in crafting immersive gaming experiences using Unity game engines. 🚀
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 place-content-center">
