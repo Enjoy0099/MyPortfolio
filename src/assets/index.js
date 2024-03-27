@@ -48,9 +48,15 @@ import IDZ from "./company/IDZ_Logo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import cosmosgame from "./cosmos_combat.png"
-import Rollerballgame from "./Rollerball_Rampage.png"
-import Katanagame from "./Katana_Rush.png"
+import cosmosgame from "./cosmos_combat.png";
+import Rollerballgame from "./Rollerball_Rampage.png";
+import Katanagame from "./Katana_Rush.png";
+import Artifact from "./The_Artifact.png";
+import AR_Mark from "./AR_Marker.jpg";
+import RollerBaller from "./Roller_Baller.png";
+import Click_Champ from "./Click_Champ.png";
+import AR_Dart from "./AR_Dart.png";
+import Open_Door from "./Open_Door.jpg";
 
 export {
   logo,
@@ -102,5 +108,11 @@ export {
   tripguide,
   cosmosgame,
   Rollerballgame,
-  Katanagame
+  Katanagame,
+  Artifact,
+  AR_Mark,
+  RollerBaller,
+  Click_Champ,
+  AR_Dart,
+  Open_Door,
 };

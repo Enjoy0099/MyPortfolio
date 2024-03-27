@@ -17,6 +17,12 @@ import {
     cosmosgame,
     Rollerballgame,
     Katanagame,
+    Artifact,
+    AR_Mark,
+    RollerBaller,
+    Click_Champ,
+    AR_Dart,
+    Open_Door,
     blender,
     cp,
     csharp,
@@ -250,6 +256,27 @@ import {
   
   const projects = [
     {
+      name: "Open Door",
+      description:
+        "This is a puzzle game where you collect three crystals, solve puzzles, and reach the door to win.",
+      tags: [
+        {
+          name: "Unreal",
+          color: "white-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Visual Studio",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Open_Door,
+      source_code_link: "https://github.com/Enjoy0099/First-Unreal-Game",
+    },
+    {
       name: "Cosmos Combat",
       description:
         "It's a 2D wave-based space shooting game! you battle against enemy ships and meteors. Destroying enemies and meteors will grant you valuable loot such as weapons and health to aid in your survival.",
@@ -264,7 +291,7 @@ import {
         },
         {
           name: "Figma",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: cosmosgame,
@@ -291,22 +318,120 @@ import {
       image: Rollerballgame,
       source_code_link: "https://github.com/Enjoy0099/Rollerball-Rampage",
     },
+    
     {
-      name: "Katana-Rush",
+      name: "The Artifact",
       description:
-        "2D infinite running game! you dodge obstacles and enemies in a never-ending race. Aim to surpass your highest score and unlock exciting new characters along the way.",
+        "Protect artifact and bushes from the wolf. Heal artifact with bush fruits to win. Player and artifact health are linked - if artifact falls, you lose.",
+      tags: [
+        {
+          name: "Unity2D",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Artifact,
+      source_code_link: "https://github.com/Enjoy0099/The-Artifact",
+    },
+    {
+      name: "AR Marker",
+      description:
+        "A marker-based app, where the device recognizes a specific image and projects an interactive 3D model on top of it.",
       tags: [
         {
           name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "Krita",
+          name: "AR",
+          color: "white-text-gradient",
+        },
+      ],
+      image: AR_Mark,
+      source_code_link: "https://github.com/Enjoy0099/AR-Marker-Unity",
+    },
+    {
+      name: "Roller-Baller",
+      description:
+        "Navigate 3D ball, where you collect coins while avoiding enemies and lava. Gather all coins in time, or it's game over.",
+      tags: [
+        {
+          name: "Unity3D",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Visual Studio",
           color: "green-text-gradient",
         },
         {
           name: "Csharp",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: RollerBaller,
+      source_code_link: "https://github.com/Enjoy0099/Roller-Baller",
+    },
+    {
+      name: "Click Champ",
+      description:
+        "It's a basic 2D game. Click on targets appearing from the bottom. Destroy good targets, avoid the bad ones.",
+      tags: [
+        {
+          name: "Unity3D",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Visual Studio",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Csharp",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Click_Champ,
+      source_code_link: "https://github.com/Enjoy0099/Click-Champ",
+    },
+    {
+      name: "AR Dart Game",
+      description:
+        "AR Dart is an augmented reality game. Find flat surfaces, place a dartboard, and throw darts at it.",
+      tags: [
+        {
+          name: "Unity3D",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AR",
+          color: "white-text-gradient",
+        },
+        {
+          name: "Csharp",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: AR_Dart,
+      source_code_link: "https://github.com/Enjoy0099/My_AR_App",
+    },
+    {
+      name: "Katana-Rush",
+      description:
+        "2D infinite running game! you dodge obstacles and enemies in a never-ending race. Aim to surpass your highest score and unlock exciting new characters along the way.",
+      tags: [
+        {
+          name: "Unity2D",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Krita",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Csharp",
+          color: "blue-text-gradient",
         },
       ],
       image: Katanagame,
