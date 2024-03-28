@@ -1,46 +1,32 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    html,
-    css,
-    meta,
-    starbucks,
-    tesla,
-    galanto,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    cosmosgame,
-    Rollerballgame,
-    Katanagame,
-    Artifact,
-    AR_Mark,
-    RollerBaller,
-    Click_Champ,
-    AR_Dart,
-    Open_Door,
-    blender,
-    cp,
-    csharp,
-    cpp,
-    figma,
-    krita,
-    photoshop,
-    python,
-    trello,
-    unity,
-    unreal,
-    visualStudio,
-    vscode,
-    Mobile_AR_Development,
-    Junior_Programmer,
-    Unity_Essentials,
-    Creative_Core,
-    IDZ,
+  IDZ,
+  Galanto,
+  blender,
+  cp,
+  csharp,
+  cpp,
+  figma,
+  krita,
+  photoshop,
+  python,
+  trello,
+  unity,
+  unreal,
+  visualStudio,
+  vscode,
+  Mobile_AR_Development,
+  Junior_Programmer,
+  Unity_Essentials,
+  Creative_Core,
+  cosmosgame,
+  Rollerballgame,
+  Katanagame,
+  Artifact,
+  AR_Mark,
+  RollerBaller,
+  Click_Champ,
+  AR_Dart,
+  Open_Door,
   } from "../assets";
   
   export const navLinks = [
@@ -82,10 +68,10 @@ import {
   ];
 
   const technologies = [
-    // {
-    //   name: "VsCode",
-    //   icon: vscode,
-    // },
+    {
+      name: "VsCode",
+      icon: vscode,
+    },
     {
       name: "C#",
       icon: csharp,
@@ -98,50 +84,38 @@ import {
       name: "Blender",
       icon: blender,
     },
-    // {
-    //   name: "Unreal",
-    //   icon: unreal,
-    // },
+    {
+      name: "Unreal",
+      icon: unreal,
+    },
     {
       name: "C++",
       icon: cpp,
     },
-    // {
-    //   name: "Visual Studio",
-    //   icon: visualStudio,
-    // },
+    {
+      name: "Visual Studio",
+      icon: visualStudio,
+    },
     {
       name: "Krita",
       icon: krita,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "Photoshop",
-    //   icon: photoshop,
-    // },
-    // {
-    //   name: "HTML",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS",
-    //   icon: css,
-    // },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
-    // {
-    //   name: "Python",
-    //   icon: python,
-    // },
-    // {
-    //   name: "Trello",
-    //   icon: trello,
-    // },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "Photoshop",
+      icon: photoshop,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Trello",
+      icon: trello,
+    },
   ];
   
   const experiences = [
@@ -149,7 +123,7 @@ import {
     {
       title: "Game Developer",
       company_name: "Galanto Innovations",
-      icon: galanto,
+      icon: Galanto,
       iconBg: "#ffffff",
       date: "February 2023 - May 2023",
       points: [
@@ -172,58 +146,6 @@ import {
         "Ensure seamless cross-tablet compatibility for Android and iOS devices through responsive design implementation.",
       ],
     },
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -233,25 +155,8 @@ import {
       name: "Chandan Kumar Jha",
       designation: "Co-founder",
       company: "Galanto Innovations",
-      image: galanto,
-      //image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: Galanto,
     },
-    // {
-    //   testimonial:
-    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    //   name: "Chris Brown",
-    //   designation: "COO",
-    //   company: "DEF Corp",
-    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-    // },
-    // {
-    //   testimonial:
-    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    //   name: "Lisa Wang",
-    //   designation: "CTO",
-    //   company: "456 Enterprises",
-    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-    // },
   ];
   
   const projects = [
