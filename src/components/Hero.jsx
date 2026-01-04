@@ -13,7 +13,7 @@ const Hero = () => {
           <div className=" w-1 sm:h-80 h-40 bg-gradient-to-b from-green-400 to-transparent"/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className=" text-green-400">Trada</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className=" text-green-400">TK</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I'm Gameplay Programmer <br className="sm:block hidden"/>
               and Unity Developer.
